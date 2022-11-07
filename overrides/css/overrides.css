@@ -96,6 +96,7 @@
     --head-nav-gap: 2.8rem;
     --h1-size: 4.6rem;
     --gap: 3.6rem;
+    --ghost-accent-color: #2ec4b6;
 }
 
 body:not(.post-template):not(.page-template) {
