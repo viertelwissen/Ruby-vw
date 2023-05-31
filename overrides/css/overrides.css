@@ -107,12 +107,8 @@
 
 
 /* Reg Button Bottom right */
-.gh-portal-triggerbtn-container {
-
-}
-
-.gh-portal-triggerbtn-label {
-    color: var(--white-color) !important;
+.gh-portal-triggerbtn-iframe {
+    display: none;
 }
 
 
