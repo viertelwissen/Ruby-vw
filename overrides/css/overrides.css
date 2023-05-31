@@ -107,7 +107,8 @@
 
 
 /* Reg Button Bottom right */
-.gh-portal-triggerbtn-iframe {
+.gh-portal-triggerbtn-iframe,
+.gh-portal-triggerbtn-wrapper {
     display: none;
 }
 
