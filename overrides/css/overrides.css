@@ -1,6 +1,6 @@
 /* Dark Mode */
 :root {
-    --primary-color: var(--ghost-accent-color, #2ec4b6);
+    --primary-color: var(--ghost-accent-color, #c1ff00);
     --primary-text-color: #fcfcfc;
     --color-primary-text: #fcfcfc;
     --secondary-text-color: #aaa;
@@ -26,7 +26,7 @@
     --head-nav-gap: 2.8rem;
     --h1-size: 4.6rem;
     --gap: 3.6rem;
-    --ghost-accent-color: #2ec4b6;
+    --ghost-accent-color: #c1ff00;
 }
 
 
@@ -111,7 +111,7 @@
 }
 
 .gh-portal-triggerbtn-label {
-    color: var(--grey0);
+    color: var(--white-color) !important;
 }
 
 
@@ -126,7 +126,7 @@ body:not(.post-template):not(.page-template) {
 kbd {
     border:1px solid gray;
     font-size:1.2em;
-    box-shadow:1px 0 1px 0 #eee, 0 2px 0 2px #4d4d4d, 0 2px 0 3px #444;
+    box-shadow:1px 0 1px 0 var(--color-darker-gray), 0 2px 0 2px var(--color-light-gray), 0 2px 0 3px var(--color-lighter-gray);
     -webkit-border-radius:3px;
     -moz-border-radius:3px;
     border-radius:3px;
