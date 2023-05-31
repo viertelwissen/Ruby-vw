@@ -1,3 +1,35 @@
+/* Dark Mode */
+:root {
+    --primary-color: var(--ghost-accent-color, #2ec4b6);
+    --primary-text-color: #fcfcfc;
+    --color-primary-text: #fcfcfc;
+    --secondary-text-color: #aaa;
+    --color-secondary-text: #aaa;
+    --white-color: #1d1d1d;
+    --color-white: #1d1d1d;
+    --color-lighter-gray: #313131;
+    --light-gray-color: #313131;
+    --color-light-gray: #313131;
+    --mid-gray-color: #474747;
+    --color-mid-gray: #474747;
+    --dark-gray-color: #aaaaaa;
+    --color-dark-gray: #aaaaaa;
+    --color-darker-gray: #cacaca;
+    --black-color: #fcfcfc;
+    --color-black: #fcfcfc;
+    --font-sans: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;
+    --font-serif: Georgia,serif;
+    --font-mono: Menlo,Consolas,Monaco,Liberation Mono,Lucida Console,monospace;
+    --animation-base: ease-in-out;
+    --shadow-base: 0 0 10px rgba(0, 0, 0, 0.02);
+    --content-font-size: 1.7rem;
+    --head-nav-gap: 2.8rem;
+    --h1-size: 4.6rem;
+    --gap: 3.6rem;
+    --ghost-accent-color: #2ec4b6;
+}
+
+
 
 /* SOCIALS Buttons */
 .kg-button-card-socials a.kg-btn-accent {
@@ -56,11 +88,15 @@
     background-color: #3faee8;
 }
 
+
+
 /* POSTS Overview */
 .post-wrapper,
 .post-footer {
     background-color: var(--light-gray-color);
 }
+
+
 
 /* POST bottom */
 .related-wrapper {
@@ -68,40 +104,23 @@
 }
 
 
-/* Dark Mode */
-:root {
-    --primary-color: var(--ghost-accent-color, #2ec4b6);
-    --primary-text-color: #fcfcfc;
-    --color-primary-text: #fcfcfc;
-    --secondary-text-color: #aaa;
-    --color-secondary-text: #aaa;
-    --white-color: #1d1d1d;
-    --color-white: #1d1d1d;
-    --color-lighter-gray: #313131;
-    --light-gray-color: #313131;
-    --color-light-gray: #313131;
-    --mid-gray-color: #474747;
-    --color-mid-gray: #474747;
-    --dark-gray-color: #aaaaaa;
-    --color-dark-gray: #aaaaaa;
-    --color-darker-gray: #cacaca;
-    --black-color: #fcfcfc;
-    --color-black: #fcfcfc;
-    --font-sans: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;
-    --font-serif: Georgia,serif;
-    --font-mono: Menlo,Consolas,Monaco,Liberation Mono,Lucida Console,monospace;
-    --animation-base: ease-in-out;
-    --shadow-base: 0 0 10px rgba(0, 0, 0, 0.02);
-    --content-font-size: 1.7rem;
-    --head-nav-gap: 2.8rem;
-    --h1-size: 4.6rem;
-    --gap: 3.6rem;
-    --ghost-accent-color: #2ec4b6;
+
+/* Reg Button Bottom right */
+.gh-portal-triggerbtn-container {
+
 }
+
+.gh-portal-triggerbtn-label {
+    color: var(--grey0);
+}
+
+
 
 body:not(.post-template):not(.page-template) {
     background-image: none;
 }
+
+
 
 /* Keyboard Buttons */
 kbd {
