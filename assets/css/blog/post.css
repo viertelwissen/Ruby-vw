@@ -39,6 +39,7 @@
     margin-bottom: 0;
     font-size: 1.6rem;
     line-height: 1.35;
+    word-break: break-word;
 }
 
 .has-serif-title .post-title {
@@ -49,6 +50,7 @@
     margin-top: 12px;
     font-size: 1.4rem;
     line-height: 1.6;
+    word-break: break-word;
 }
 
 .has-serif-body .post-excerpt {
@@ -129,5 +131,11 @@
 @media (min-width: 992px) and (max-width: 1199px) {
     .post-feed {
         grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (min-width: 992px) {
+    .is-head-stacked .post-feed {
+        margin-top: 32px;
     }
 }
